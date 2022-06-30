@@ -13,6 +13,8 @@ $('.btn-reset').on('click', function () {
 $('.btn-sum1 ').on('click', function () {
     if (count < 12) {
         count = count + increment
+    } else {
+        alert('Time A ganhou parabéns !')
     }
 
     $('.display1').text(count)
@@ -51,6 +53,8 @@ let incremento = 0;
 $('.btn-sum2').on('click', function () {
     if (contador < 12) {
         contador = contador + incremento
+    } else {
+        alert('Time B ganhou parabéns !')
     }
     $('.display2').text(contador)
 })
@@ -58,7 +62,7 @@ $('.btn-sum2').on('click', function () {
 // sub-B
 $('.btn-sub2').on('click', function () {
     if (contador > 0) {
-        contador = contador - contador
+        contador = contador - incremento
     }
     $('.display2').text(contador)
 })
