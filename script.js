@@ -55,6 +55,7 @@ $('.btn-sum2').on('click', function () {
         contador = contador + incremento
     } else {
         alert('Time B ganhou parabéns !')
+       
     }
     $('.display2').text(contador)
 })
