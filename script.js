@@ -30,7 +30,7 @@ $('.btn-sub1').on('click', function () {
 // Increment time A
 $('.btn-increment1').on('click', function () {
     if (increment < 12) {
-        increment += 1
+        increment += 3
     }
 
 
@@ -55,7 +55,7 @@ $('.btn-sum2').on('click', function () {
         contador = contador + incremento
     } else {
         alert('Time B ganhou parabéns !')
-       
+
     }
     $('.display2').text(contador)
 })

@@ -25,9 +25,4 @@
 .time {
   font-size: 30px;
 }
-.btn-outline-secondary:hover {
-    background-color: rgb(2, 0, 0);
-    transition: all 1.2s ease;
-    border: white;
-}
 
