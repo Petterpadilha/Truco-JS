@@ -49,8 +49,8 @@ class time {
 
     incre() {
         let current = Number.parseInt(this.$counter.text());
-        let inc = (current == 1 ? 2 : 3);
-        let counter = current += inc;
+        let incre = (current == 1? 2 : 3);
+        let counter = current += incre;
 
         if (counter > 12)
             counter = 12;
