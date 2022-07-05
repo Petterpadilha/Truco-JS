@@ -21,7 +21,7 @@ class TrucoCount {
         this.timeB.reset();
     }
 }
-
+/postgresql-tutorial/postgresql-select-distinct/
 class time {
 
     constructor($container) {
